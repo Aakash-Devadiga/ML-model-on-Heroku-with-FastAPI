@@ -10,7 +10,7 @@ def test_get_path():
     r = client.get("/")
 
     assert r.status_code == 200
-    assert r.json() == {'Greetings From Raja Judeh': 'Welcome To Udacity Project on Model Deployment'}
+    assert r.json() == {'Greetings From aakash': 'Welcome To Udacity Project on Model Deployment'}
 
 
 def test_post_model_inference_zero_class(train_data):
