@@ -36,9 +36,6 @@ jobs:
         
     - name: Setup dvc
       uses: iterative/setup-dvc@v1
-      
-    - name: Pull data
-      run: dvc pull
         
     - name: Lint with flake8
       run: |
