@@ -6,7 +6,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 A logistic regression model was used as a binary classification model for 
 salary in the Census data
 - Model type: sklearn.linear_model.LogisticRegression
-- Model date: 13.02.2022
+- Model date: 15.03.2022
 - Parameters: max_iter=300
 - Categorical features: OneHot encoding was used
 - Continuous features: Standard scaler was used
